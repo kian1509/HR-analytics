@@ -2,9 +2,10 @@
 
 ## Solution ✔️
 
-### 1) How many employees does the company have?
+### 1) How many employees does the company currently have?
 ``` sql
-SELECT count(*) FROM employee_data;
+SELECT count(*) FROM employee_data
+WHERE leaveornot IS false;
 ```
 **Answer**: 4653 employees
 
