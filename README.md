@@ -24,3 +24,27 @@ SELECT city,
 GROUP BY city;
 ```
 ![Employee_city](Images/employee_city.png)
+
+## 4) Which year had the highest number of new hires?
+
+``` sql
+SELECT joiningyear as "Year joined",
+		ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM employee_data),2) AS "Percentage"
+		FROM employee_data
+GROUP BY joiningyear
+```
+![hires_year](Images/hires_year.png)
+Indicating that of all the people who have worked for the company, most were hired in 2017
+
+
+
+
+
+
+
+
+
+
+
+
+ORDER BY joiningyear;
