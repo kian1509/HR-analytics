@@ -4,7 +4,7 @@
 ``` sql
 SELECT count(*) FROM employee_data;
 ```
-ANSWER: 4653
+ANSWER: 4653 employees
 
 ## 2) What is the education of the employees?
 ``` sql
@@ -14,3 +14,4 @@ ANSWER: 4653
 FROM employee_data
 GROUP BY education;
 ```
+![Education_of_employees](education_employees.png)
