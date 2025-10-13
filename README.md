@@ -15,3 +15,12 @@ FROM employee_data
 GROUP BY education;
 ```
 ![Education_of_employees](Images/education_employees.png)
+
+## 3) In what city do the employees work?
+``` sql
+SELECT city,
+	ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM employee_data),2) AS "Percentage"
+	FROM employee_data
+GROUP BY city;
+```
+![Employee_city](Images/employee_city.png)
