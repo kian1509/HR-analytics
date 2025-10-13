@@ -14,4 +14,4 @@ ANSWER: 4653 employees
 FROM employee_data
 GROUP BY education;
 ```
-![Education_of_employees](education_employees.png)
+![Education_of_employees](Images/education_employees.png)
