@@ -1,10 +1,14 @@
-# HR-analytics
+# HR Mini Case Study
 
-## 1) How many employees does the company have?
+## Solution
+
+### 1) How many employees does the company have?
 ``` sql
 SELECT count(*) FROM employee_data;
 ```
 ANSWER: 4653 employees
+
+***
 
 ## 2) What is the education of the employees?
 ``` sql
