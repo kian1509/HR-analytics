@@ -36,7 +36,7 @@ ORDER BY joiningyear;
 ```
 ![hires_year](Images/hires_year.png)
 
-Indicating that of all the people who have worked for the company, most were hired in 2017
+Indicating that of all the people who have worked for the company, most were hired **in 2017.**
 
 
 
