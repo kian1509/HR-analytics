@@ -38,10 +38,20 @@ ORDER BY joiningyear;
 
 Indicating that of all the people who have worked for the company, most were hired **in 2017.**
 
+## 5) Which group of employees having a certain degree has the highest chance of leaving the company?
+``` sql
+SELECT education,
+    ROUND(
+        COUNT(*) FILTER (WHERE leaveornot IS true) * 100.0 / COUNT(*),
+        2
+    ) AS "Leave percentage"
+FROM employee_data
+GROUP BY education
+ORDER BY "Leave percentage" DESC;
+```
+![diploma_leave](Images/diploma_leave.png)
 
-
-
-
+Almost **50%** of the hired masters have left the company, this is twice as high as the hired PhDs.
 
 
 
