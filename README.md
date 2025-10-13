@@ -1,6 +1,6 @@
-# HR Mini Case Study
+# HR Mini Case Study 🔎
 
-## Solution
+## Solution ✔️
 
 ### 1) How many employees does the company have?
 ``` sql
@@ -30,9 +30,8 @@ SELECT city,
 GROUP BY city;
 ```
 **Answer**: Bangalore, Pune, New Delhi
-***
 ![Employee_city](Images/employee_city.png)
-
+***
 ### 4) Which year had the highest number of new hires?
 
 ``` sql
