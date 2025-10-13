@@ -50,7 +50,6 @@ GROUP BY education
 ORDER BY "Leave percentage" DESC;
 ```
 ![diploma_leave](Images/diploma_leave.png)
-
 Almost **50%** of the hired masters have left the company, this is twice as high as the hired PhDs.
 
 
