@@ -7,7 +7,7 @@
 SELECT count(*) FROM employee_data
 WHERE leaveornot IS false;
 ```
-**Answer**: 4653 employees
+**Answer**: 3053 employees
 
 ***
 
