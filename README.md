@@ -1,4 +1,4 @@
-# HR Mini Case Study 🔎
+# HR Mini Case Study 👪
 
 ## Solution ✔️
 
