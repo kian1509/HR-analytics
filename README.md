@@ -17,7 +17,7 @@ WHERE leaveornot IS false;
 
 ***
 
-### 2) What is the education of the employees?
+### 2) What is the education of the employees (active and non-active)?
 ``` sql
   SELECT education, 
 	   COUNT(*) AS "Amount of employees",
@@ -29,7 +29,7 @@ GROUP BY education;
 
 **Answer**: Bachelor, Master, PhD
 ***
-### 3) In what city do the employees work?
+### 3) In what city do the employees (active and non-active) work?
 ``` sql
 SELECT city,
 	ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM employee_data),2) AS "Percentage"
