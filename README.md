@@ -1,6 +1,10 @@
 # HR Mini Case Study 👪
 
-## Power BI Dashboard
+## Introduction
+The data for this case study was taken from ![Kaggle](https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset). It contains information about employees in a company, including their educational backgrounds, work history, demographics, and employment-related factors. The goal of this project is to generate meaningful insights using SQL and a Power BI dashboard. All insights presented in this project are original and have been independently developed by me.
+
+
+## Power BI Dashboard 
 ![Dashboard](Images/HR_Mini_Case_Study_Power_BI_Dashboard.png)
 ***
 ## SQL code
