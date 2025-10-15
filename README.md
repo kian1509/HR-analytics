@@ -2,6 +2,9 @@
 
 ## Solution ✔️
 
+
+![Dashboard](Images/HR_Mini_Case_Study_Power_BI_Dashboard.png)
+
 ### 1) How many employees does the company currently have?
 ``` sql
 SELECT count(*) FROM employee_data
