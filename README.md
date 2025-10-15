@@ -1,10 +1,9 @@
 # HR Mini Case Study 👪
 
-## Solution ✔️
-
-
+## Power BI Dashboard
 ![Dashboard](Images/HR_Mini_Case_Study_Power_BI_Dashboard.png)
-
+***
+## SQL code
 ### 1) How many employees does the company currently have?
 ``` sql
 SELECT count(*) FROM employee_data
